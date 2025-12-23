@@ -25,3 +25,17 @@ if(number % 3 == 0 && number & 5 ==0 ){
     console.log(number ,'is divisible by 3 and 5');
   
 }
+
+else if (number %3 ==0 && number%5 !=0){
+    console.log(number,'divisible by 5 not by 5');
+    
+}
+
+else if( number% 5 ==0 && number%3 != 0){
+    console.log(number,'divisible by 5 not by 3');
+    
+}
+else{
+    console.log(number,'not by both 3 and 5');
+    
+}
