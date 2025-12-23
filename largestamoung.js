@@ -39,3 +39,5 @@ else{
     console.log(number,'not by both 3 and 5');
     
 }
+
+
