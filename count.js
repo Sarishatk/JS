@@ -20,3 +20,5 @@ for(let i=0;i<text.length;i++){
     
 }
     console.log(count);
+
+    // return count of specific character in a string
