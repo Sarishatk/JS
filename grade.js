@@ -15,3 +15,17 @@ else if (total_mark >= 60) {
 else {
     console.log('Failed');
 }
+
+
+// type of looping
+
+// quantity based looping
+
+// synatx
+
+// for(initialization;condition;increment/decrement){
+
+// code to be executed
+
+
+// }
