@@ -53,30 +53,50 @@
 
 
 // identify the largest prime number in given range
-let start = 1;
-let stop= 30;
-let largest_prime = 1
+// let start = 1;
+// let stop= 30;
+// let largest_prime = 1
 
-for(let num = start;num<=stop;num++){
+// for(let num = start;num<=stop;num++){
 
-    if(num>1){
+//     if(num>1){
 
-        let is_prime = true
-       for (let i = 2; i < num; i++){
-        if(num%i == 0){
-            is_prime = false
-            break
-        }
-       }
-       if(is_prime){
-      largest_prime = num;
+//         let is_prime = true
+//        for (let i = 2; i < num; i++){
+//         if(num%i == 0){
+//             is_prime = false
+//             break
+//         }
+//        }
+//        if(is_prime){
+//       largest_prime = num;
         
-       }
-    }
-}
-if (largest_prime !== 1) {
-    console.log("largest:", largest_prime);
-} else {
-    console.log("not found");
-}
+//        }
+//     }
+// }
+// if (largest_prime !== 1) {
+//     console.log("largest:", largest_prime);
+// } else {
+//     console.log("not found");
+// }
 
+
+
+
+// i = 1
+
+// while(i<=7){
+//     console.log(i);
+//     i++
+
+// }
+
+
+i = 10
+while(i<=30){
+    if(i%2 == 0){
+        console.log(i);
+        
+    }
+    i++
+} 
