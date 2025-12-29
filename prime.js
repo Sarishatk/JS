@@ -10,10 +10,4 @@ for(let i=2;i<number;i++){
     }
 }
 
-if(is_prime == true){
-    console.log('number is prime');
-    
-}else{
-    console.log('number is not prime');
-    
-}
+console.log(is_prime == true?'prime number':'not prime');
