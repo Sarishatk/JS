@@ -92,11 +92,22 @@
 // }
 
 
-i = 10
-while(i<=30){
-    if(i%2 == 0){
-        console.log(i);
+// i = 10
+// while(i<=30){
+//     if(i%2 == 0){
+//         console.log(i);
+        
+//     }
+//     i++
+// } 
+
+
+
+let num = 15
+while(num<=105){
+    if (num%3==0 && num%5 ==0){
+        console.log(num);
         
     }
-    i++
-} 
+    num++
+}
