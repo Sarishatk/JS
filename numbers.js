@@ -17,11 +17,4 @@ while(num>0){
     num = Math.floor(num/10)
 }
 
-if(number == sum){
-    
-    console.log(sum,' is armstrong number');
-    
-}else{
-    console.log('not an armstrong number');
-    
-}
+console.log(sum == number?"armstrong number":"not an armstrong numbers");
