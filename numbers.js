@@ -1,20 +1,25 @@
 // armstrong number
 
-num = 153
+// num = 153
 
-number = num
+// number = num
 
-len = String(num).length
+// len = String(num).length
 
-sum = 0
+// sum = 0
 
-while(num>0){
+// while(num>0){
 
-    last_digit = num % 10
+//     last_digit = num % 10
 
-    sum+= last_digit**len
+//     sum+= last_digit**len
 
-    num = Math.floor(num/10)
-}
+//     num = Math.floor(num/10)
+// }
 
-console.log(sum == number?"armstrong number":"not an armstrong numbers");
+// console.log(sum == number?"armstrong number":"not an armstrong numbers");
+
+
+
+// fins the asum of  prime numbers in given range
+
