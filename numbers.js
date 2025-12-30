@@ -41,7 +41,7 @@ for(let num = start;num<=stop;num++){
             break
         }
        }
-       
+
        if(is_prime){
 
         sum+=num
@@ -62,13 +62,13 @@ console.log(sum);
 
 // let sum = 0
 
-// while(num <=30){
+// while(num <=stop){
 
 //     if(num>1){
 //         is_prime = true
 //         let i = 2
 
-//         if(i<num){
+//         while(i<num){
 
 //         }
 //     }
