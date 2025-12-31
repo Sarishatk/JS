@@ -43,3 +43,6 @@ while(new_array.length < numbers.length){
 console.log(new_array);
 
 
+
+
+
