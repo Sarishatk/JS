@@ -46,3 +46,6 @@ console.log(new_array);
 
 
 
+// calculate the count of even and odd numbers
+// sum of all elemeths in the array
+// create a new array which contains only the uniuq elements from the above array
