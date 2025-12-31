@@ -82,3 +82,6 @@
  }
  console.log(sum);
  
+
+
+ // create a new array which contains only the uniuq elements from the above array
