@@ -37,7 +37,9 @@ for(let i = 0;i<numbers.length;i++){
     new_array.push(numbers[i])
  }
 }
-
+while(new_array.length < numbers.length){
+    new_array.push(0)
+}
 console.log(new_array);
 
 
