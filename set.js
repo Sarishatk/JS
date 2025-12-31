@@ -18,7 +18,19 @@
 
 
 
+// text = 'js is easy and js is powerful'
+// // find the uniuq words from the text given and add then to a array
+
+// let uniqueArray = Array.from(new Set(text.split(" ")))
+
+// console.log(uniqueArray)
+
+
 text = 'js is easy and js is powerful'
-// find the uniuq words from the text given and add then to a array
+unique = new Set(text.split(" "))
+let result = []
 
-
+for(i of unique){
+    result.push(i)
+}
+console.log(result);
