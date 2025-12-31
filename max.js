@@ -14,12 +14,30 @@
 
 // find the smallest elements in the above array
 
-numbers = [1,3,4,5,7,8,9]
-smallest = numbers[0]
+// numbers = [1,3,4,5,7,8,9]
+// smallest = numbers[0]
 
-for(i = 0;i < numbers.length;i++){
-    if(numbers[i]< smallest){
-        largets_number = numbers[i]
-    }
+// for(i = 0;i < numbers.length;i++){
+//     if(numbers[i]< smallest){
+//         largets_number = numbers[i]
+//     }
+// }
+// console.log(smallest);
+
+
+
+// move all zeros from the array to the end
+
+numbers = [1,0,2,0,7,8]
+
+new_array = []
+
+for(let i = 0;i<numbers.length;i++){
+ if(numbers[i]!=0){
+    new_array.push(numbers[i])
+ }
 }
-console.log(smallest);
+
+console.log(new_array);
+
+
