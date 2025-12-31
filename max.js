@@ -85,3 +85,15 @@
 
 
  // create a new array which contains only the uniuq elements from the above array
+
+ numbers = [2,3,4,5,6,6,6,3]
+
+ let uniques = []
+
+ for(i=0;i<numbers.length;i++){
+    if(!uniques.includes(numbers[i])){
+        uniques.push(numbers[i])
+    }
+ }
+ console.log(uniques);
+ 
