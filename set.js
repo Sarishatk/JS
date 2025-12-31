@@ -5,13 +5,20 @@
 
 //add the odd numbers to new list
 
-let number = [5,6,2,4,6,3,2,4]
+// let number = [5,6,2,4,6,3,2,4]
 
-let odd_num = new Set([])
+// let odd_num = new Set([])
 
-for(i=0;i<number.length;i++){
-    if(number[i]%2 !=0){
-        odd_num.add(number[i])
-    }
-}
-console.log(odd_num);
+// for(i=0;i<number.length;i++){
+//     if(number[i]%2 !=0){
+//         odd_num.add(number[i])
+//     }
+// }
+// console.log(odd_num);
+
+
+
+text = 'js is easy and js is powerful'
+// find the uniuq words from the text given and add then to a array
+
+
