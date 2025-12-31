@@ -28,19 +28,19 @@
 
 // move all zeros from the array to the end
 
-numbers = [1,0,2,0,7,8]
+// numbers = [1,0,2,0,7,8]
 
-new_array = []
+// new_array = []
 
-for(let i = 0;i<numbers.length;i++){
- if(numbers[i]!=0){
-    new_array.push(numbers[i])
- }
-}
-while(new_array.length < numbers.length){
-    new_array.push(0)
-}
-console.log(new_array);
+// for(let i = 0;i<numbers.length;i++){
+//  if(numbers[i]!=0){
+//     new_array.push(numbers[i])
+//  }
+// }
+// while(new_array.length < numbers.length){
+//     new_array.push(0)
+// }
+// console.log(new_array);
 
 
 
@@ -49,3 +49,27 @@ console.log(new_array);
 // calculate the count of even and odd numbers
 // sum of all elemeths in the array
 // create a new array which contains only the uniuq elements from the above array
+
+
+let numbers = [3,4,5,6,8,13,1,5]
+
+let even_count = 0
+
+let odd_count = 0
+
+for(i=0;i<=numbers.length;i++){
+
+    if(numbers[i]%2 == 0){
+        even_count+=1
+    }
+    else{
+        odd_count+=1
+    }
+
+
+}
+console.log('even count',even_count);
+console.log('odd count', odd_count);
+
+// sum of all elemeths in the array
+
