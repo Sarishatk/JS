@@ -62,6 +62,13 @@ console.log(elements);
 
 
                     //   methos
-// set() >> add or update the key value pairs in map
-// get() >> to retreive the value of keys in the map object
-// has() >> check the key is present (true) else false
+// set(key,value) >> add or update the key value pairs in map
+// get(key) >> to retreive the value of keys in the map object
+// has(key) >> check the key is present (true) else false
+// delete(key)
+// clear() >> remove all elements
+// keys() return all keys
+// values() 
+
+// properties
+// size >> return the total number of key value pair in the map
