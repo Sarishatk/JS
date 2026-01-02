@@ -34,3 +34,7 @@ for(i of unique){
     result.push(i)
 }
 console.log(result);
+
+
+
+

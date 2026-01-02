@@ -20,14 +20,31 @@
 
 // find the even numbers from a given range and display then in array
 
-let start = 3
+// let start = 3
 
-let stop=20
+// let stop=20
 
-let evenNumbers = []
-for(let i = start;i<=stop;i++){
-    if(i%2==0){
-        evenNumbers.push(i)
-    }
+// let evenNumbers = []
+// for(let i = start;i<=stop;i++){
+//     if(i%2==0){
+//         evenNumbers.push(i)
+//     }
+// }
+// console.log(evenNumbers);
+
+
+
+// object (modern application, api fetch)
+
+let student = {
+    name:"rahul",
+    age:"34",
+    course:"react"
 }
-console.log(evenNumbers);
+console.log(student.name);
+
+// object are key value collections
+// key string
+// order is not guaranteed
+// 
+
