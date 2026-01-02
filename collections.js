@@ -48,3 +48,20 @@ console.log(student.name);
 // order is not guaranteed
 // 
 
+// map
+
+let elements = new Map()
+elements.set("name","sarisha")
+console.log(elements);
+
+// key can be of datatypes
+// if key already exist the value will be updated
+// elements.set("name","arun")
+// consloe.log(elements)
+
+
+
+                    //   methos
+// set() >> add or update the key value pairs in map
+// get() >> to retreive the value of keys in the map object
+// has() >> check the key is present (true) else false
