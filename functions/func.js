@@ -55,14 +55,38 @@ greet()
 // return false if any of these is even
 
 
-function evenornot(num1,num2){
+// function evenornot(num1,num2){
 
-    if(num1%2 == 0 && num2%2 == 0){
-        return true
+//     if(num1%2 == 0 && num2%2 == 0){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+//  let result = evenornot(4,6)
+//  console.log(result);
+ 
+
+// define a function named apiresponse which accepts the status value
+// if status value 200 return success
+// if stsus value equal to 404 return page not found
+// if ststus equlas to 500 return serer error
+
+function apiresponse(status){
+    if(status == 200){
+        return 'success'
+        
+    }else if(status == 404){
+        return 'not found'
+        
+    }else if(status == 500){
+        return 'server error'
+        
     }else{
-        return false
+       return 'server crashed'
+        
     }
 }
- let result = evenornot(4,6)
- console.log(result);
- 
+
+let result = apiresponse(200) 
+console.log(result);
