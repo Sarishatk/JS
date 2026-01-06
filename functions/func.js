@@ -10,3 +10,8 @@
 // function name()
 
 
+function greet(){
+    console.log('hello everyone');
+    
+}
+greet()
