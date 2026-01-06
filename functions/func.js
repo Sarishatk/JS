@@ -15,3 +15,7 @@ function greet(){
     
 }
 greet()
+
+
+// func with parameter
+// parameter is a variable which accept the value when the function is called
