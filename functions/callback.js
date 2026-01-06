@@ -48,18 +48,45 @@
 
 // call back function using parameters
 
-function mainFunction(callback,n1,n2){
-    callback(n1,n2)
-}
+// function mainFunction(callback,n1,n2){
+//     callback(n1,n2)
+// }
 
-function add(n1,n2){
-    sum = n1+n2
-    console.log(sum);
+// function add(n1,n2){
+//     sum = n1+n2
+//     console.log(sum);
     
-}
-mainFunction(add,10,20)
+// }
+// mainFunction(add,10,20)
 
 
 // execution one function is depend on another
 // result is not avilable immediately
 // used for asynchronous functions
+
+
+// add two numbers
+
+// const add = (a=2,b=4)=>a+b
+// console.log(add());
+
+// // find aqure of a number
+
+// const squrae = (num=4)=>num**2
+// console.log((squrae()));
+
+// chcek a number is even or odd
+
+const evenorodd = (num = 4)=>{
+    if(num%2==0){
+        console.log('even');
+        
+    }else{
+        console.log('odd');
+        
+    }
+    
+}
+evenorodd()
+
+
