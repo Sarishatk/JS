@@ -32,22 +32,37 @@ greet()
 
 // define a function to check whether the largest among three numbers
 
-function largest(a,b,c){
-    if(a >b && a>c){
-        console.log(a);
+// function largest(a,b,c){
+//     if(a >b && a>c){
+//         console.log(a);
         
-    }
-    else if(b>a&&b>c){
-        console.log(b);
+//     }
+//     else if(b>a&&b>c){
+//         console.log(b);
         
-    }
-    else{
-        console.log(c);
+//     }
+//     else{
+//         console.log(c);
         
-    }
+//     }
     
+// }
+// largest(4,6,7)
+
+
+// define a function which accept two values
+// return true if 2 numbers are even
+// return false if any of these is even
+
+
+function evenornot(num1,num2){
+
+    if(num1%2 == 0 && num2%2 == 0){
+        return true
+    }else{
+        return false
+    }
 }
-largest(4,6,7)
-
-
-// 
+ let result = evenornot(4,6)
+ console.log(result);
+ 
