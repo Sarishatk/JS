@@ -90,3 +90,18 @@ const evenorodd = (num = 4)=>{
 evenorodd()
 
 
+// check the largest among three n umbers
+
+const largest= (a=5,b=9,c=2) => {
+    if(a>b&&a>c){
+        console.log((a));
+        
+    }else if(b>a&&b>c){
+        console.log(b);
+        
+    }else{
+        console.log(c);
+        
+    }
+}
+largest()
