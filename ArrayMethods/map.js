@@ -44,10 +44,37 @@
 
 // find the number divisible by 3 and 5
 
-let numbers = [5,15,30,25,10,8]
+// let numbers = [5,15,30,25,10,8]
 
-let result = numbers.map(num=>num%3==0 && num%5==0)
+// let result = numbers.map(num=>num%3==0 && num%5==0)
 
+// console.log(result);
+
+// numbers=[5,15,30,25,10,8]
+// let total = numbers.reduce((sum, num) => sum + num, 0);
+// console.log(total);
+
+
+
+// numbers= [2,4,3,6,7,9,5,1]
+
+// let result = numbers.filter(num=>num%2==0)
+
+// console.log(result);
+
+
+// find the squre of all numbers in arayy
+numbers= [2,4,3,6,7,9,5,1]
+
+let result= numbers.map(num=>num**2)
+
+let greater_no = result.filter(num=> num>20)
+
+let sum = greater_no.reduce((a,b)=>a+b
+
+)
 console.log(result);
+console.log(greater_no);
+console.log(sum);
 
 
