@@ -24,7 +24,10 @@
 
 num = [1,2,3,4]
 
-let result = 
+let result = num.map(number=>number**3)
+
+console.log(result);
+
 
 
 
