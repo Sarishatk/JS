@@ -36,9 +36,17 @@
 
 // find the odd numbers from the array of numbers
 
-let numbers = [1,4,5,7,8,9]
+// let numbers = [1,4,5,7,8,9]
 
-let result = numbers.map(num=>num%2!=0)
+// let result = numbers.map(num=>num%2!=0)
+
+// console.log(result);
+
+// find the number divisible by 3 and 5
+
+let numbers = [5,15,30,25,10,8]
+
+let result = numbers.map(num=>num%3==0 && num%5==0)
 
 console.log(result);
 
