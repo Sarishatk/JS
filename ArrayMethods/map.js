@@ -28,6 +28,9 @@ let result = num.map(number=>number**3)
 
 console.log(result);
 
+// filter
+// ===========
 
+// return the elements from the array which matches a given condition
 
 
