@@ -62,19 +62,26 @@
 
 // console.log(result);
 
+// =====================================================================
+
+numbers= [2,4,3,6,7,9,5,1]
+let result = numbers.filter(num=>num%2==0).reduce((a,b)=>a*b)
+console.log(result);
+
+
 
 // find the squre of all numbers in arayy
-numbers= [2,4,3,6,7,9,5,1]
+// numbers= [2,4,3,6,7,9,5,1]
 
-let result= numbers.map(num=>num**2)
+// let result= numbers.map(num=>num**2)
 
-let greater_no = result.filter(num=> num>20)
+// let greater_no = result.filter(num=> num>20)
 
-let sum = greater_no.reduce((a,b)=>a+b
+// let sum = greater_no.reduce((a,b)=>a+b
 
-)
-console.log(result);
-console.log(greater_no);
-console.log(sum);
+// )
+// console.log(result);
+// console.log(greater_no);
+// console.log(sum);
 
 
