@@ -22,15 +22,24 @@
 
 // find the cube of each element in the array
 
-num = [1,2,3,4]
+// num = [1,2,3,4]
 
-let result = num.map(number=>number**3)
+// let result = num.map(number=>number**3)
 
-console.log(result);
+// console.log(result);
 
 // filter
 // ===========
 
 // return the elements from the array which matches a given condition
+
+
+// find the odd numbers from the array of numbers
+
+let numbers = [1,4,5,7,8,9]
+
+let result = numbers.map(num=>num%2!=0)
+
+console.log(result);
 
 
