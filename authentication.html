@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>authentication</h1>
+    <p>Auth Types</p>
+    <ol id="order"></ol>
+    <button onclick="listAuth()">click</button>
+    <p>permissions</p>
+    <ol id="permissions"></ol>
+    <button onclick="permissions()">click</button>
+
+</body>
+<script>
+    function listAuth(){
+
+        const items = document.getElementById("order")
+
+        items.innerText = ""
+
+        const auth = ['basic authentication','token authentication','jwt authentication']
+
+        for(let i of auth){
+            var result = document.createElement('li')
+            result.innerText = i
+            items.append(result)
+        }
+
+        // const items = document.getElementById("order")
+        // var result = document.createElement('li')
+        // result.innerText = 'basic authentication'
+        // items.appendChild(result)
+
+
+       
+    }
+
+    function permissions(){
+
+        const items = document.getElementById('permissions')
+
+        items.innerText = ""
+
+        const permissn = ['isAuthenticated','allowany']
+
+        for(let i of permissn){
+
+            var result = document.createElement('li')
+            result.innerText = i
+            items.append(result)
+            
+        }
+
+    }
+</script>
+</html>
