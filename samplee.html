@@ -6,12 +6,29 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>JavaScript</h2>
+    <h2 id="clr" onclick="changeColor()">JavaScript</h2>
     <h1 onclick="changeText()" id="hi">dom</h1>
 </body>
 <script>
-    function changeText(){
-        document.getElementById("hi").innerHTML="document object model"
+    function changeText() {
+    const hed = document.getElementById("hi");
+
+    if (hed.innerText === "dom") {
+        hed.innerText = "document object model";
+    } else {
+        hed.innerText = "dom";
+    }
+}
+
+
+      function changeColor(){
+        const heading = document.getElementById("clr")
+
+        if (heading.style.color === 'lightgreen') {
+            heading.style.color = 'red'
+        } else {
+            heading.style.color = 'lightgreen'
+        }
     }
 </script>
 </html>
