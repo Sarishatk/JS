@@ -28,7 +28,11 @@
 
             let sum = Number(num1) + Number(num2)
             result = document.getElementById("result")
-            result.value = sum
+            if(sum>100){
+                result.value = "larger value"
+            }else{
+                result.value = sum
+            }
 
         }
 
