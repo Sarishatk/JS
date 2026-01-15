@@ -18,12 +18,36 @@
     </div>
       <div class="mb-3 mt-3 d-flex justify-content-around">
         <input type="button" onclick="increment()" class="btn btn-danger" value="+">
-        <input type="button" onclick="decrement()" class="btn btn-warning" value="-">
+        <input type="button" id="de" onclick="decrement()" class="btn btn-warning" value="-">
     </div>
     <div class="mb-3 mt-4 d-flex justify-content-center">
         <input type="button" onclick="reset()" class="btn btn-primary" value="Reset">
 
     </div>
 </div>
+<script>
+    let num =0
+   result = document.getElementById("h2")
+
+    function increment(){
+
+        result.innerText = num++
+
+    }
+    
+function decrement() {
+        if (num > 0) {      
+            num--;
+            result.innerText = num;
+        }
+    }
+
+    function reset() {
+        num = 0;
+        result.innerText = num;
+    }
+
+    
+</script>
 </body>
 </html>
